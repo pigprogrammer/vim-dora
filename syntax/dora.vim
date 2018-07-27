@@ -3,7 +3,9 @@ if exists("b:current_syntax")
 endif
 
 " Function/Closure
-syntax keyword doraKeyword fun function
+syntax keyword doraKeyword fun function grab
+
+syntax keyword doraKeyword class grab
 
 " Boolean
 syntax keyword doraKeyword true false
