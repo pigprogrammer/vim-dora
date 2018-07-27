@@ -13,6 +13,7 @@ syntax keyword doraKeyword true false
 " Control keywords
 syntax keyword doraKeyword break continue else if for return in
 
+syntax keyword doraKeyword let var init 
 
 highlight link doraKeyword Keyword
 
@@ -20,6 +21,11 @@ highlight link doraKeyword Keyword
 " (see: https://stackoverflow.com/a/45626295/667648)
 syntax match doraFunction "\zs\(\k\w*\)*\s*\ze(" 
 highlight link doraFunction Function
+
+
+
+syntax keyword doraType int double float byte char Str long
+highlight link doraType Type
 
 " Arithmetic operations
 
