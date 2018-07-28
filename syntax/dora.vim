@@ -64,12 +64,12 @@ syntax match doraOperator "\v[a-zA-z]+:"
 
 " a && b
 syntax match doraOperator "\v\&\&"
-" a and b
-syntax match doraOperator "\v and "
+" a & b
+syntax match doraOperator "\v & "
 " a || b
 syntax match doraOperator "\v\|\|"
-" a or b
-syntax match doraOperator "\v or "
+" a | b
+syntax match doraOperator "\v | "
 
 highlight link doraOperator Operator
 
