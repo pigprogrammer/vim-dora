@@ -3,9 +3,8 @@ if exists("b:did_indent")
 endif
 let b:did_indent = 1
 
-if exists("*DyonIndent")
+if exists("*DoraIndent")
   finish
 endif
 
-" Dyon works similar to C, but without ;.
 setlocal smartindent

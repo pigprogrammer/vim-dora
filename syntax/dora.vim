@@ -8,7 +8,8 @@ syntax keyword doraKeyword fun function grab
 syntax keyword doraKeyword class grab
 
 " Boolean
-syntax keyword doraKeyword true false
+syntax keyword doraBoolean true false
+highlight link doraBoolean Boolean
 
 " Control keywords
 syntax keyword doraKeyword break continue else if for return in
@@ -22,7 +23,8 @@ highlight link doraKeyword Keyword
 syntax match doraFunction "\zs\(\k\w*\)*\s*\ze(" 
 highlight link doraFunction Function
 
-
+syntax keyword doraPreProc include
+highlight link doraPreProc PreProc
 
 syntax keyword doraType int double float byte char Str long
 highlight link doraType Type
