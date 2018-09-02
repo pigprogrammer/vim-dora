@@ -5,5 +5,5 @@ Basic syntax highlighting and indentation for [Dora](https://github.com/dinfuehr
 ### How to install
 Install using your favorite package manager, exaple with plug install:
 ```vim
-Plug 'pigprogrammer/vim-dora'
+Plug 'playXE/vim-dora'
 ```
